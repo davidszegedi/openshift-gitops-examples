@@ -8,9 +8,6 @@ metadata:
 spec:
   port:
     targetPort: 8080
-  tls:
-    termination: passthrough 
-    insecureEdgeTerminationPolicy: None
   to:
     kind: Service
     name: bgd
